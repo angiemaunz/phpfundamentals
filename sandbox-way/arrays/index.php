@@ -27,10 +27,21 @@ $tuts_sites = array(
 	<body>
 		<h1>Tuts+ Sites</h1>
 		<ul>
-			<?php foreach($tuts_sites as $site) {
-				echo "<li>$site</li>";
-		}
-		?>
+			<?php
+
+//			foreach($tuts_sites as $site) {
+//				echo "<li>$site</li>";
+//		}
+
+//			foreach($tuts_sites as $name => $url) {
+//				echo "<li><a href='$url'>" . ucwords($name) . "+</a></li>";
+//			}
+
+			foreach($tuts_sites as $name => $url) :   ?>
+				<li>
+					<a href="<?= $url; ?>"><?= $name; ?></a>
+				</li>
+			 <?php endforeach ?>
 		</ul>
 	</body>
 </html>
