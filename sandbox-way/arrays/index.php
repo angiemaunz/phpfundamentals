@@ -25,7 +25,7 @@ $tuts_sites = array(
 		<title>Arrays</title>
 	</head>
 	<body>
-		<h1>Tuts+ Sites</h1>
+		<h1>Tuts+  Sites</h1>
 		<ul>
 			<?php
 
