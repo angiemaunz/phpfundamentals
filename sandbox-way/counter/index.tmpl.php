@@ -1,11 +1,11 @@
 <!doctype html>
 <html>
-<head>
-	<title></title>
-</head>
-<body>
-	<h1>Counter </h1>
-	<p>you are the x visitor to this site.</p>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<h1>Counter </h1>
+		<p>Vistor Count: <?php echo $count; ?>.</p>
 
-</body>
+	</body>
 </html>
