@@ -3,12 +3,9 @@
 <head>
 	<title></title>
 	<style>
-		ul {
-			list-style: none;
-			.notice {
-				color: red; font-style: italic;
-			}
-		}
+		ul, li { margin: 0; padding: 0; }
+		li { list-style: none; }
+		.notice { color: red; font-style: italic;  }
 	</style>
 </head>
 <body>
@@ -22,12 +19,12 @@
 		<ul>
 			<li>
 				<label for="name">Your Name:</label>
-				<input type="text" name="name">
+				<input type="text" name="name" value="<?php echo old('name'); ?>"
 			</li>
 
 			<li>
 				<label for="email">Your Email Address:</label>
-				<input type="text" name="email">
+				<input type="text" name="email" value="<?= old('email');?>"
 			</li>
 
 			<li>
